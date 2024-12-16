@@ -1,0 +1,25 @@
+{
+  "name": "telegram-html-preview",
+  "displayName": "Telegram HTML Preview",
+  "description": "Preview Telegram-styled HTML directly in VSCode.",
+  "version": "1.0.0",
+  "publisher": "kawasaji",
+  "engines": {
+    "vscode": "^1.50.0"
+  },
+  "main": "./extension.js",
+  "activationEvents": [
+    "onCommand:telegramPreview.start"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "telegramPreview.start",
+        "title": "Telegram HTML Preview"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.50.0"
+  }
+}
